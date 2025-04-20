@@ -116,5 +116,35 @@ For any queries or suggestions, please open an issue in the repository.
 - WordPress community
 - Open-source contributors
 
+## Deployment
+### Netlify Configuration
+The project is configured for Netlify deployment with the following setup:
+
+```toml
+[build]
+  publish = "home"
+  command = "# no build command needed for static files"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+```
+
+### Deployment Steps
+1. Connect repository to Netlify
+2. Configure build settings:
+   - Build command: leave empty
+   - Publish directory: `home`
+3. Configure environment variables (if needed)
+4. Set up custom domain (optional)
+
+## Recent Updates
+- Added Netlify configuration
+- Removed modal functionality
+- Removed overlay elements
+- Updated project structure
+- Added comprehensive documentation
+
 ## Last Updated
 ${new Date().toISOString().split('T')[0]}

@@ -1,0 +1,8 @@
+[build]
+  publish = "home"  # Since your main files are in the home directory
+  command = "# no build command needed for static files"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
