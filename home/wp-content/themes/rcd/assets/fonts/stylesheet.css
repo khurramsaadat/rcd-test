@@ -1,0 +1,52 @@
+/* Manrope varients */
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('./fonts/gilroy/gilroy-regular.woff2') format('woff2'), url('./fonts/gilroy/gilroy-regular.woff') format('woff'), url('./fonts/gilroy/Gilroy-Bold.svg#Gilroy-Bold') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('./fonts/gilroy/gilroy-medium.woff2') format('woff2'), url('./fonts/gilroy/gilroy-medium.woff') format('woff'), url('./fonts/gilroy/Gilroy-SemiBold.svg#Gilroy-SemiBold') format('svg');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('./fonts/gilroy/gilroy-semibold.woff2') format('woff2'), url('./fonts/gilroy/gilroy-semibold.woff') format('woff'), url('./fonts/fontsgilroy/Gilroy-Regular.svg#Gilroy-Regular') format('svg');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('./fonts/gilroy/gilroy-bold.woff') format('woff2'), url('./fonts/gilroy/gilroy-bold.woff2') format('woff'), url('./fonts/gilroy/Gilroy-SemiBold.svg#Gilroy-SemiBold') format('svg');
+    font-weight: 700;
+    font-style: normal;
+}
+
+/* Manrope varients */
+
+@font-face {
+    font-family: 'Manrope';
+    src: url('./fonts/Manrope/Manrope-Bold.woff2') format('woff2'), url('./fonts/Manrope/Manrope-Bold.woff') format('woff'), url('./fonts/Manrope/Manrope-Bold.svg#Manrope-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Manrope';
+    src: url('./fonts/Manrope/Manrope-SemiBold.woff2') format('woff2'), url('./fonts/Manrope/Manrope-SemiBold.woff') format('woff'), url('./fonts/Manrope/Manrope-SemiBold.svg#Manrope-SemiBold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Manrope';
+    src: url('./fonts/Manrope/Manrope-Regular.woff2') format('woff2'), url('./fonts/Manrope/Manrope-Regular.woff') format('woff'), url('./fonts/Manrope/Manrope-Regular.svg#Manrope-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
